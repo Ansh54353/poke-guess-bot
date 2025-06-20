@@ -1,0 +1,13 @@
+services:
+  - type: worker
+    name: poke-guess-bot
+    env: python
+    plan: free
+    runtime: python
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: API_ID
+        value: "your_api_id_here"
+      - key: API_HASH
+        value: "your_api_hash_here"
