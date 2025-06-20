@@ -9,7 +9,7 @@ from telethon import TelegramClient, events
 # === CONFIG ===
 API_ID = int(os.environ.get("API_ID"))
 API_HASH = os.environ.get("API_HASH")
-SESSION_NAME = "session"
+SESSION_NAME = "waifu_bot_pro"
 MAIN_GROUP = -1002703086057
 LOG_GROUP = -1002684463909
 HASH_DB_FILE = "hash_db.json"
